@@ -149,13 +149,14 @@
             <li>Radio Buttons</li>
             <li>Listas desplegables</li>
         </ul>
+        <h3>TEXTBOX</h3>
         Se le puede poner los siguientes atributos al campo de texto
         <ul>
             <li>MAXLENGHT: Para asignar limite de largo al texto que se va enviar</li>
             <li>VALUE: Para dejarle un valor por defecto</li>
             <li>PLACEHOLDER: Sugerencia de valores</li>
             <li>SIZE: Para tamanio</li>
-            <li>align: Para el alineamiento</li>
+            <li>ALIGN: Para el alineamiento</li>
         </ul>   
         <br>
         <form action="" method="">
@@ -163,11 +164,27 @@
             <br>
             Ingrese Constrasenia: <input type="password" name="pass" id="pass" maxlength="8" value="00000000">
         </form>
+        <br>
+        <h3>Radio</h3>
         A este tipo se le puede asignar los siguientes atributos:
+        <ul>
+            <li>CHECKED: A la que elijas queda marcada por defecto</li>
+            <li>NAME: Recordar que asignarle un mismo nombre los agrupa y permite que se pueda seleccionar solo una opcion y destilda la otra cuando se va eligiendo</li>
+        </ul>
         <form action="" method="">
-            Si <input type="radio" name="" id="">
-            No <input type="radio" name="" id="">
+            <input type="radio" name="si/no" id="si" value="Si" checked> Si
+            <input type="radio" name="si/no" id="no" value="No"> No
         </form>
+        <h3>CHECKBOX</h3>
+        A este tipo se le puede asignar los siguientes atributos:
+        <ul>
+            <li>CHECKED: A la que elijas queda marcada por defecto</li>
+            <li>NAME: Caso contrario al Radio, esta tiene que tener distinto nombre, ya que cada respuesta debe ser independiente</li>
+        </ul>
+        <form action="">
+            <input type="checkbox" name="" id="" value="">
+        </form>
+        
     </div>
 </body>
 </html>
