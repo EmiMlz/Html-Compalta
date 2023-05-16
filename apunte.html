@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="diapo-1">
+    <div class="diapo-1" id="diapo-1">
        <b>Negritas</b> 
        <br>
        <i>Cursivas</i>
@@ -46,8 +46,34 @@
        Width
        Src
     </div>
-    <div class="diapo-1">
-
+    <div class="diapo-2">
+        <h1 style="margin: 3px;">Diapositiva 2</h1>
+        <h1 style="margin: 3px;">Listas</h1>
+        <ul style="margin: 3px;">
+            <li>Ordenadas(ol)</li>
+            <ol>
+                <li>Al lado de cada 'li' tienen un número</li>
+                <li>asd</li>
+            </ol>
+            <li>No ordenadas(ul)</li>
+            <ul>
+                <li>Al lado de cada 'li' tienen un mismo icono</li>
+                <li>asd</li>
+            </ul>
+        </ul>
+        <h1 style="margin: 3px;">Glosarios(ni se usan creo)</h1>
+        <dl style="margin: 3px;">
+            <dt>Tiulo del glosario</dt>
+            <dd><b>Contenido, todo glosario va dentro de una etiqueta 'dl', 'dt' es el titulo y 'dd' el contenido del glosario.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti magni quidem obcaecati veritatis repudiandae molestiae aut rerum ut facere consectetur, consequuntur, tempore numquam, libero cum laudantium ducimus ex. Perferendis!</dd>
+        </dl>
+        <h1 style="margin: 3px;">Enlaces hipertexto(a)</h1>
+        <p style="margin: 3px;">la etiqueta 'a' tiene atributo 'href' que indica a donde va a llevar ese enlace. Puede ser una pagina online o otra página local.</p>
+        <a href="https://twitter.com/home">La mejor red social(siempre y cuando bloquees gente con malas opiniones)</a>
+        <p style="margin: 3px;">Tambien se puede llevar a una parte especifica de la pagina usando un ancla con id="nombre-ancla" en la etiqueta a la que queremos llevar</p>
+        <a href="#diapo-1">Va a la parte de la diapositiva 1 en la página</a>
+        <p style="margin: 3px;">Atributo target para 'a', lo más importante es el valor '_blank' que indica que el link se va a abrir en una nueva pestaña.</p>
+        <a href="https://www.youtube.com/" target="_blank">Videitos</a>
+        <p style="margin: 3px;">Para ir a una página local, si esa otra página está ubicada en la misma carpeta que ésta página, solo con poner el nombre del archivo en el href bastará, en caso de que este contenido en una carpeta de mas adentro, será "nombreCarpeta/nombrepagina.html", si la página esta para atras, se usa '../' por cada carpeta que queramos ir hacia atras, por ejemplo '../../Archivos/descarga.mp4'</p>
     </div>
 </body>
 </html>
