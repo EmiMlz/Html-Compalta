@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="diapo-1" id="diapo-1">
+        <h1>Diapo 1</h1>
        <b>Negritas</b> 
        <br>
        <i>Cursivas</i>
@@ -76,11 +77,13 @@
         <p style="margin: 3px;">Para ir a una página local, si esa otra página está ubicada en la misma carpeta que ésta página, solo con poner el nombre del archivo en el href bastará, en caso de que este contenido en una carpeta de mas adentro, será "nombreCarpeta/nombrepagina.html", si la página esta para atras, se usa '../' por cada carpeta que queramos ir hacia atras, por ejemplo '../../Archivos/descarga.mp4'</p>
     </div>
     <div class="diapo-3">
+        <h1 style="margin: 3px;">Diapo 3</h1>
         <p style="color: #FF0000;">Este parrafo es rojo</p>
         <p style="color:red">Este parrafo tambien va a ser rojo</p>
         <h1>Atributos para body:</h1>
         text, para el color del texto, link, para el color de los links en hipertexto, vlink, para con los que ya interactuaste, alink, para los enlaces activos
         background, para poner una imagen de fondo con url o path
+        <br>
         <h1>Atributos para img:</h1>
         align, con valores; top, middle , bottom, left y right. vspace, para ajustar los pixeles verticales, hspace, los mismo pero con pixeles horizontales, width, para ancho, height, para alto. border, para agregar borde. alt, para agregar una descripcion a la imagen
 
@@ -135,6 +138,36 @@
             <li>controls: muestra los botones play / stop / pause</li>
             <li>width / height</li>
         </ul>
+    </div>
+    <div class="diapo-5">
+        <h1>Diapositiva 5</h1>
+        Los forms son para interactuar con los usuarios, basicamente encuestas y formularios de registros o envio de informacion
+        Se pueden presentar con elementos, como por ej:
+        <ul>
+            <li>Cuadros de texto</li>
+            <li>Checkbox</li>
+            <li>Radio Buttons</li>
+            <li>Listas desplegables</li>
+        </ul>
+        Se le puede poner los siguientes atributos al campo de texto
+        <ul>
+            <li>MAXLENGHT: Para asignar limite de largo al texto que se va enviar</li>
+            <li>VALUE: Para dejarle un valor por defecto</li>
+            <li>PLACEHOLDER: Sugerencia de valores</li>
+            <li>SIZE: Para tamanio</li>
+            <li>align: Para el alineamiento</li>
+        </ul>   
+        <br>
+        <form action="" method="">
+            Ingrese User: <input type="text" name="user" id="user" maxlength="10" placeholder="NickName">
+            <br>
+            Ingrese Constrasenia: <input type="password" name="pass" id="pass" maxlength="8" value="00000000">
+        </form>
+        A este tipo se le puede asignar los siguientes atributos:
+        <form action="" method="">
+            Si <input type="radio" name="" id="">
+            No <input type="radio" name="" id="">
+        </form>
     </div>
 </body>
 </html>
